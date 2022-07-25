@@ -1,6 +1,3 @@
-from lib2to3.pytree import _Results
-from tokenize import triple_quoted
-from unittest import result
 import zipfile
 import time
 
@@ -36,7 +33,7 @@ else:
         except:
             pass
         
-    if (results == 0):
+    if (result == 0):
         duration = endtime - starttime
         print('Sorry, password was not found. A total of '+str(c)+'+possible combinations tried in '+str(duration)+'seconds.')
     else:
