@@ -33,7 +33,7 @@ else:
         except:
             pass
         
-    if (result == 0):
+    if (results == 0):
         duration = endtime - starttime
         print('Sorry, password was not found. A total of '+str(c)+'+possible combinations tried in '+str(duration)+'seconds.')
     else:
