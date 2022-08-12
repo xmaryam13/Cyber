@@ -28,7 +28,7 @@ else:
                 zf.extractall(pwd = password)
                 print('Success! The password is: '+word)
                 endtime = time.time()
-                result = 1 
+                results = 1 
             break
         except:
             pass
